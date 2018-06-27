@@ -1,0 +1,218 @@
+{
+  "Aviones": [
+    { 
+      "codigoUnico" : "A1",
+      "cantidadDePasajerosMaxima": 200,
+      "cantidadDeTripulacionNecesaria": 5
+    },
+    { 
+      "codigoUnico" : "A2",
+      "cantidadDePasajerosMaxima": 150,
+      "cantidadDeTripulacionNecesaria": 4
+    },
+    { 
+      "codigoUnico" : "A3",
+      "cantidadDePasajerosMaxima": 20,
+      "cantidadDeTripulacionNecesaria": 2
+    },
+    { 
+      "codigoUnico" : "A4",
+      "cantidadDePasajerosMaxima": 140,
+      "cantidadDeTripulacionNecesaria": 3
+    },
+    { 
+      "codigoUnico" : "A5",
+      "cantidadDePasajerosMaxima": 100,
+      "cantidadDeTripulacionNecesaria": 3
+    },
+    { 
+      "codigoUnico" : "A6",
+      "cantidadDePasajerosMaxima": 30,
+      "cantidadDeTripulacionNecesaria": 2
+    }
+  ],
+  "Personas": [
+    {
+      "tipo": "Pasajero",
+      "nombre": "Juan",
+      "apellido": "Perez",
+      "fechaNacimiento": "1980-03-12",
+      "dni": "1",
+      "vip": 0,
+      "solicitudesEspeciales": "Vegetariano"
+    },
+    {
+      "tipo": "Pasajero",
+      "nombre": "Pedro",
+      "apellido": "Dominguez",
+      "fechaNacimiento": "1970-04-13",
+      "dni": "2",
+      "vip": 1
+    },
+    {
+      "tipo": "Piloto",
+      "nombre": "Rodrigo",
+      "apellido": "Palacios",
+      "fechaNacimiento": "1955-05-10",
+      "dni": "3",
+      "avionesHabilitados": ["A1","A2","A3"]
+    },
+    {
+      "tipo": "Piloto",
+      "nombre": "Manuel",
+      "apellido": "Fraga",
+      "fechaNacimiento": "1970-04-11",
+      "dni": "4",
+      "avionesHabilitados": ["A1","A3"]
+    },
+    {
+      "tipo": "Piloto",
+      "nombre": "Joaquín",
+      "apellido": "Sarasa",
+      "fechaNacimiento": "1975-09-19",
+      "dni": "5",
+      "avionesHabilitados": ["A2","A3"]
+    },
+    {
+      "tipo": "Servicio",
+      "nombre": "Manuel",
+      "apellido": "Sarasa",
+      "fechaNacimiento": "1975-09-19",
+      "dni": "6",
+      "avionesHabilitados": ["A2","A3","A4"],
+      "idiomas": ["Inglés", "Español"]
+    },
+    {
+      "tipo": "Servicio",
+      "nombre": "María",
+      "apellido": "Lalala",
+      "fechaNacimiento": "1975-10-19",
+      "dni": "7",
+      "avionesHabilitados": ["A2","A4"],
+      "idiomas": ["Inglés"]
+    },
+    {
+      "tipo": "Servicio",
+      "nombre": "Florencia",
+      "apellido": "Pérez",
+      "fechaNacimiento": "1985-10-10",
+      "dni": "8",
+      "avionesHabilitados": ["A3","A4"],
+      "idiomas": ["Inglés", "Portugués"]
+    },
+    {
+      "tipo": "Servicio",
+      "nombre": "Julia",
+      "apellido": "Dominguez",
+      "fechaNacimiento": "1985-11-10",
+      "dni": "9",
+      "avionesHabilitados": ["A1","A3","A4"],
+      "idiomas": ["Español", "Portugués"]
+    },
+    {
+      "tipo": "Pasajero",
+      "nombre": "Daniel",
+      "apellido": "Dominguez",
+      "fechaNacimiento": "1970-04-13",
+      "dni": "10",
+      "vip": 0
+    },
+    {
+      "tipo": "Pasajero",
+      "nombre": "Daniel",
+      "apellido": "Rodriguez",
+      "fechaNacimiento": "1970-05-13",
+      "dni": "11",
+      "vip": 0,
+      "solicitudesEspeciales": "Silla de Ruedas"
+    },
+    {
+      "tipo": "Pasajero",
+      "nombre": "Mariano",
+      "apellido": "Dominguez",
+      "fechaNacimiento": "1974-04-13",
+      "dni": "12",
+      "vip": 1
+    },
+    {
+      "tipo": "Pasajero",
+      "nombre": "Daniela",
+      "apellido": "Damasco",
+      "fechaNacimiento": "2001-04-13",
+      "dni": "13",
+      "vip": 0
+    },
+    {
+      "tipo": "Pasajero",
+      "nombre": "Daniela",
+      "apellido": "Perez",
+      "fechaNacimiento": "2011-04-23",
+      "dni": "14",
+      "vip": 1
+    },
+    {
+      "tipo": "Pasajero",
+      "nombre": "Esteban",
+      "apellido": "Perez",
+      "fechaNacimiento": "2011-04-24",
+      "dni": "15",
+      "vip": 1,
+      "solicitudesEspeciales": "Vegano"
+    },
+    {
+      "tipo": "Pasajero",
+      "nombre": "Miriam",
+      "apellido": "Lalala",
+      "fechaNacimiento": "2011-04-14",
+      "dni": "16",
+      "vip": 0
+    },    
+    {
+      "tipo": "Pasajero",
+      "nombre": "Maximiliano",
+      "apellido": "Lalala",
+      "fechaNacimiento": "2011-10-14",
+      "dni": "17",
+      "vip": 0
+    }   
+  ],
+  "Vuelos":
+  [
+    {
+      "avion": "A1",
+      "fecha": "2018-03-30",
+      "hora": "12:00",
+      "origen": "Buenos Aires",
+      "destino": "Atlanta",
+      "tripulacion": ["3","5","6","7"],
+      "pasajeros": ["1","2","17","15"]
+    },
+    {
+      "avion": "A2",
+      "fecha": "2018-03-30",
+      "hora": "00:30",
+      "origen": "Madrid",
+      "destino": "Estocolmo",
+      "tripulacion": ["4","3","7","8"],
+      "pasajeros": ["16","10","11","12"]
+    },
+    {
+      "avion": "A3",
+      "fecha": "2018-12-30",
+      "hora": "03:30",
+      "origen": "Tokio",
+      "destino": "Houston",
+      "tripulacion": ["5","4","9"],
+      "pasajeros": ["2","16","17"]
+    },
+    {
+      "avion": "A4",
+      "fecha": "2018-09-30",
+      "hora": "12:30",
+      "origen": "Buenos Aires",
+      "destino": "Córdoba",
+      "tripulacion": ["3","5","8"],
+      "pasajeros": ["10","11","12"]
+    }
+  ]
+}
